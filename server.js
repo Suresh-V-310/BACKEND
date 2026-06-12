@@ -27,6 +27,14 @@ if (process.platform === 'win32') {
   }
 }
 
+// Add local JDK to PATH and set JAVA_HOME if present (useful on Render native env)
+const jdkPath = path.resolve(__dirname, 'jdk', 'bin');
+if (existsSync(jdkPath)) {
+  process.env.PATH = `${jdkPath}${path.delimiter}${process.env.PATH}`;
+  process.env.JAVA_HOME = path.resolve(__dirname, 'jdk');
+  console.log(`[JDK PATH LOADED]: ${jdkPath}`);
+}
+
 // Connect to MongoDB
 connectDB();
 
@@ -45,10 +53,12 @@ if (process.env.CLIENT_URL) {
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, curl, or server-to-server)
       if (!origin) return callback(null, true);
-
-      if (allowedOrigins.includes(origin) || /^http:\/\/localhost(:\d+)?$/.test(origin)) {
+      if (
+        allowedOrigins.includes(origin) ||
+        /^http:\/\/localhost(:\d+)?$/.test(origin) ||
+        origin.endsWith('.vercel.app')
+      ) {
         callback(null, true);
       } else {
         callback(new Error('Not allowed by CORS'));

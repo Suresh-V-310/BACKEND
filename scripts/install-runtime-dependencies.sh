@@ -35,6 +35,20 @@ else
   echo "WARN: python3 not found" >&2
 fi
 
+# Install portable OpenJDK 17 if running on Render and javac/java are not installed
+if [ "${RENDER:-false}" = "true" ] || [ "${FORCE_JDK_INSTALL:-false}" = "true" ]; then
+  if ! command -v javac >/dev/null 2>&1; then
+    echo "Installing JDK 17 on Render..."
+    JDK_URL="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.8.1_1.tar.gz"
+    JDK_DIR="$ROOT/jdk"
+    mkdir -p "$JDK_DIR"
+    curl -L "$JDK_URL" | tar -xz -C "$JDK_DIR" --strip-components=1
+    echo "JDK 17 installed at $JDK_DIR"
+  else
+    echo "Java compiler (javac) already available, skipping JDK installation."
+  fi
+fi
+
 if [ "${RENDER:-false}" = "true" ]; then
   echo "Running on Render: skipping global npm package installation."
 elif command -v npm >/dev/null 2>&1; then
