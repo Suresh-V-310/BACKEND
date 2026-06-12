@@ -1,0 +1,53 @@
+{
+  "c": {
+    "system": ["gcc", "g++", "build-essential", "make", "libc6-dev", "libpthread-stubs0-dev"],
+    "headers": ["stdio.h", "stdlib.h", "string.h", "math.h", "time.h", "ctype.h", "signal.h", "errno.h", "stdbool.h", "stdint.h", "assert.h", "locale.h", "setjmp.h", "pthread.h"]
+  },
+  "cpp": {
+    "system": ["g++", "build-essential", "cmake", "pkg-config"],
+    "headers": ["iostream", "vector", "string", "map", "set", "unordered_map", "algorithm", "filesystem", "thread", "chrono", "regex", "memory", "queue", "stack", "deque", "list", "tuple", "functional", "array", "bitset", "numeric", "future", "mutex"]
+  },
+  "python": {
+    "pip": ["requests", "numpy", "pandas", "matplotlib", "scipy", "scikit-learn", "tensorflow", "torch", "flask", "django", "fastapi", "uvicorn"],
+    "stdlib": ["os", "sys", "math", "random", "datetime", "json", "re", "csv", "sqlite3", "threading", "asyncio", "pathlib"]
+  },
+  "java": {
+    "system": ["openjdk-21-jdk", "maven", "gradle"]
+  },
+  "javascript": {
+    "npm": ["express", "react", "react-dom", "vue", "@angular/core", "axios", "lodash", "socket.io", "mongoose", "bcrypt", "jsonwebtoken", "multer", "cors", "dotenv", "redux"]
+  },
+  "typescript": {
+    "npm": ["typescript", "ts-node", "express", "axios", "@nestjs/core", "@nestjs/common", "typeorm", "prisma", "rxjs"]
+  },
+  "csharp": {
+    "system": ["dotnet-sdk-8.0"]
+  },
+  "php": {
+    "composer": ["laravel/framework", "symfony/symfony", "codeigniter4/framework"]
+  },
+  "go": {
+    "modules": ["github.com/gin-gonic/gin", "github.com/labstack/echo/v4", "gorm.io/gorm"]
+  },
+  "rust": {
+    "cargo": ["serde", "tokio", "reqwest", "clap", "rand", "chrono", "diesel", "actix-web"]
+  },
+  "kotlin": {
+    "system": ["openjdk-21-jdk", "kotlin", "gradle"]
+  },
+  "ruby": {
+    "gem": ["rails", "sinatra", "rspec"]
+  },
+  "r": {
+    "cran": ["dplyr", "ggplot2", "tidyr", "readr", "shiny", "caret", "data.table"]
+  },
+  "dart": {
+    "pub": ["flutter", "provider", "riverpod"]
+  },
+  "sql": {
+    "system": ["sqlite3", "postgresql-client", "mariadb-client"]
+  },
+  "web": {
+    "npm": ["bootstrap", "tailwindcss", "@mui/material"]
+  }
+}

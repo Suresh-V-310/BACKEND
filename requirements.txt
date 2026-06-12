@@ -1,0 +1,5 @@
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+pyarrow==14.0.2
+numexpr==2.9.0

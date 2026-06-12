@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-06-05T06:41:52.172Z",
+  "results": [
+    {
+      "key": "python",
+      "name": "Python",
+      "ok": true,
+      "ms": 2330,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Sum = 30",
+      "stderr": ""
+    },
+    {
+      "key": "c",
+      "name": "C",
+      "ok": true,
+      "ms": 1457,
+      "runner": "judge0",
+      "warning": "Local GCC was not found; ran single-file C code with Judge0 instead.",
+      "stdout": "Learning C is Easy",
+      "stderr": ""
+    },
+    {
+      "key": "cpp",
+      "name": "C++",
+      "ok": true,
+      "ms": 3151,
+      "runner": "judge0",
+      "warning": "Project runner failed; executed main file via single-file pipeline.",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "java",
+      "name": "Java",
+      "ok": true,
+      "ms": 3374,
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "kotlin",
+      "name": "Kotlin",
+      "ok": true,
+      "ms": 3538,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "csharp",
+      "name": "C#",
+      "ok": true,
+      "ms": 2241,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "javascript",
+      "name": "JavaScript",
+      "ok": true,
+      "ms": 437,
+      "runner": "host",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "typescript",
+      "name": "TypeScript",
+      "ok": true,
+      "ms": 3232,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "go",
+      "name": "Go",
+      "ok": true,
+      "ms": 2930,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "rust",
+      "name": "Rust",
+      "ok": true,
+      "ms": 2166,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "swift",
+      "name": "Swift",
+      "ok": true,
+      "ms": 2192,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "ruby",
+      "name": "Ruby",
+      "ok": true,
+      "ms": 2015,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "php",
+      "name": "PHP",
+      "ok": true,
+      "ms": 2341,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "r",
+      "name": "R",
+      "ok": true,
+      "ms": 2178,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "matlab",
+      "name": "MATLAB",
+      "ok": true,
+      "ms": 2229,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "dart",
+      "name": "Dart",
+      "ok": true,
+      "ms": 4577,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "scala",
+      "name": "Scala",
+      "ok": true,
+      "ms": 3614,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "sql",
+      "name": "SQL",
+      "ok": true,
+      "ms": 1679,
+      "runner": "judge0",
+      "warning": "Ran on Judge0 CE (remote sandbox).",
+      "stdout": "Hello, World!",
+      "stderr": ""
+    },
+    {
+      "key": "web",
+      "name": "Frontend (HTML/CSS/JS)",
+      "ok": true,
+      "runner": "preview",
+      "stdout": "Web stack runs in the browser preview (HTML5, CSS3, Bootstrap, Tailwind, Material UI).",
+      "stderr": ""
+    }
+  ]
+}

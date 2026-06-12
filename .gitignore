@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+mingw64/
+mingw.7z
+*.log
+
+dist/
+build/
+
+ts-node*
+tsc*
+typeorm*
+.venv/
+__pycache__/
