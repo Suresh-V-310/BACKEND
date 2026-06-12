@@ -43,7 +43,8 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
-  'https://frontend-green-alpha-50.vercel.app'
+  'https://frontend-green-alpha-50.vercel.app',
+  'https://onlinecomplier1.netlify.app/'
 ];
 
 if (process.env.CLIENT_URL) {
